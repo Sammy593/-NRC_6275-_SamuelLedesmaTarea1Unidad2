@@ -1,0 +1,9 @@
+form{
+    width: 500px;
+    margin: auto;
+    }
+
+  #captcha_image{
+    width: 150px;
+    height: 90px;
+  }
