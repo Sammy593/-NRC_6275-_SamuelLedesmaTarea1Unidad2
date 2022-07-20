@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("#form").validate({
         rules: {
+            //Aqui aplicamos cada regla segun la etiqueta creada en el el form HTML
             nombre: {
                 required: true,
                 minlength: 3
@@ -25,6 +26,7 @@ $(document).ready(function() {
             }
         },
         messages: {
+            //Personalizamos nuestro mensajes de error para las etiquetas y campos de validacion que especifiquemos
             nombre: {
                 required: "Debes completar tu Nombre",
                 minlength: "Tu nombre debe tener al menos 3 caracteres"
